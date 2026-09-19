@@ -1,0 +1,6 @@
+{
+  "name": "Regalo para Vanessa - Amor y Amistad",
+  "description": "Un regalo de aniversario y Día del Amor y la Amistad estilo pixel art retro de 8 bits para Vanessa, con mensajes románticos, galería interactiva de fotos, cartas de agradecimiento y música chiptune.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
