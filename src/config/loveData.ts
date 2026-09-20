@@ -1,33 +1,23 @@
 import { LoveConfig } from '../types';
 
-/* ==========================================================================
-   ❤️ CONFIGURACIÓN DE MENSAJES Y DETALLES ❤️
-   
-   ¡Hola! Puedes personalizar cualquier detalle en este archivo:
-   - Tu nombre y el de tu pareja (partnerName)
-   - Fechas especiales o aniversario
-   - Inserta tus propias fotos (reemplaza las URLs de fotos)
-   ========================================================================== */
+// 📸 Importación directa para que Vite empaquete las imágenes automáticamente
+import foto1 from '../media/1789829922430.jpg';
+import foto2 from '../media/1789830160648.jpg';
+import foto3 from '../media/1789829915845.jpg';
+import foto4 from '../media/1789829889611.jpg';
+import foto5 from '../media/1789829910913.jpg';
+import foto6 from '../media/1789829905375.jpg';
 
 export const initialLoveData: LoveConfig = {
-  // Puedes cambiar "Mi Amor" por el nombre de tu pareja (ej: "Carlos", "Alejandro", etc.)
   partnerName: "Mi Amor",
-
-  // Remitente
   senderName: "Siempre tuya",
-
-  // Título principal
   occasionTitle: "Gracias Por Estar a Mi Lado",
   heroSubtitle: "Con Todo Mi Cariño • Agradecida Por Tu Compañía y Cuidados",
-
-  // Fecha especial o aniversario (AAAA-MM-DD)
   relationshipStartDate: "2023-09-20",
 
-  // Mensaje introductorio (efecto máquina de escribir)
   mainIntroMessage: 
     "Quiero darte las gracias de todo corazón por tu hermosa compañía y por cada uno de los cuidados y atenciones que siempre has tenido conmigo. Sé que no siempre es fácil y te pido una disculpa sincera por mis errores, por mis momentos difíciles y por todo aquello en lo que pude haber fallado. Tener a mi lado a una persona tan especial, que se preocupa por mi bienestar y me apoya con tanta paciencia y ternura, es el regalo más valioso de mi vida. Gracias por cuidarme, por comprenderme y por estar aquí conmigo.",
 
-  // Carta íntima y completa
   fullLoveLetter: {
     title: "Para Ti, Con Todo Mi Amor y Gratitud Sincera",
     paragraphs: [
@@ -40,9 +30,6 @@ export const initialLoveData: LoveConfig = {
     signOff: "Con todo mi amor, cariño y respeto ❤️"
   },
 
-  // <!-- ========================================================== -->
-  // <!-- RAZONES DE AGRADECIMIENTO                                 -->
-  // <!-- ========================================================== -->
   reasons: [
     {
       id: 1,
@@ -106,13 +93,10 @@ export const initialLoveData: LoveConfig = {
     }
   ],
 
-  // <!-- ========================================================== -->
-  // <!-- GALERÍA DE FOTOS INTERACTIVA                               -->
-  // <!-- ========================================================== -->
   photos: [
     {
       id: "photo-1",
-      url: "/media/1789829922430.jpg",
+      url: foto1,
       caption: "Caminatas y Charlas",
       date: "Tardes Tranquilas",
       memoryNote: "Caminar a tu lado compartiendo conversaciones sinceras. Agradezco cada instante en el que me brindas tu tiempo y tu compañía.",
@@ -120,7 +104,7 @@ export const initialLoveData: LoveConfig = {
     },
     {
       id: "photo-2",
-      url: "/media/1789830160648.jpg",
+      url: foto2,
       caption: "Abrazos y Serenidad",
       date: "Momentos de Calma",
       memoryNote: "En tus abrazos encuentro un refugio de paz. Gracias por cuidarme con tanta dulzura y hacerme sentir tan bien.",
@@ -128,7 +112,7 @@ export const initialLoveData: LoveConfig = {
     },
     {
       id: "photo-3",
-      url: "/media/1789829915845.jpg",
+      url: foto3,
       caption: "Risas Compartidas",
       date: "Nuestras Alegrías",
       memoryNote: "Las sonrisas sinceras y las risas que surgen de forma natural son de los recuerdos que más atesoro en el corazón.",
@@ -136,7 +120,7 @@ export const initialLoveData: LoveConfig = {
     },
     {
       id: "photo-4",
-      url: "/media/1789829889611.jpg",
+      url: foto4,
       caption: "La Belleza de lo Cotidiano",
       date: "Días de Paz",
       memoryNote: "Compartir un café o una tarde tranquila contigo hace que lo ordinario se convierta en algo muy especial.",
@@ -144,7 +128,7 @@ export const initialLoveData: LoveConfig = {
     },
     {
       id: "photo-5",
-      url: "/media/1789829910913.jpg",
+      url: foto5,
       caption: "Agradeciendo Cada Paso",
       date: "Mirando Hacia Adelante",
       memoryNote: "Agradezco a la vida por coincidir contigo y por permitirme aprender y crecer a tu lado con respeto y cariño.",
@@ -152,7 +136,7 @@ export const initialLoveData: LoveConfig = {
     },
     {
       id: "photo-6",
-      url: "/media/1789829905375.jpg",
+      url: foto6,
       caption: "Siempre a Tu Lado",
       date: "Caminando Juntos",
       memoryNote: "Gracias por tu paciencia infinita, tu compañía y cada uno de tus cuidados. Te quiero con todo mi corazón.",
